@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "466396468923",
+    "project_id": "easypark-e2f7d",
+    "storage_bucket": "easypark-e2f7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466396468923:android:faad36f7ddf4d8191b7b9e",
+        "android_client_info": {
+          "package_name": "com.punokawan.eazypark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466396468923-q320erhplfi6a40rg9u8jdldcvhjntbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.punokawan.eazypark",
+            "certificate_hash": "95bd1a9917f9e8339a169abf8ff83e3b48645600"
+          }
+        },
+        {
+          "client_id": "466396468923-7ff2h83rab09icefkfsmevhbcnfp2lvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBim25V8dYR_SGOI25lXLsJPi-DqyU8Wh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466396468923-7ff2h83rab09icefkfsmevhbcnfp2lvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_corner_shape_history"
+    android:layout_width="match_parent"
+    android:id="@+id/parking_history_item"
+    android:padding="16dp"
+    android:layout_marginVertical="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/parking_location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow_font"
+        android:text="Center Point Mall"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/parking_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat, 29 April"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/time_begin_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14:50"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/parking_location_tv"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/dash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - "
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/parking_location_tv"
+        app:layout_constraintStart_toEndOf="@+id/time_begin_tv"/>
+
+
+    <TextView
+        android:id="@+id/time_end_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19:50"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/parking_location_tv"
+        app:layout_constraintStart_toEndOf="@+id/dash"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 hours of parking time"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/parking_location_tv"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
