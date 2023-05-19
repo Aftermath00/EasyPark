@@ -1,5 +1,4 @@
-
-![Logo](![ezpark_logo](https://github.com/Aftermath00/EasyPark/assets/86555486/81c936f6-e8fa-4340-b609-e32448fe66b5)
+(https://github.com/Aftermath00/EasyPark/assets/86555486/81c936f6-e8fa-4340-b609-e32448fe66b5)
 
 
 # Eazy Park
