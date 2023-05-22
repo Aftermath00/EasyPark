@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-        android:id="@+id/parking_data_tv"
+        android:id="@+id/parking_date_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sat, 29 April"
@@ -62,6 +62,7 @@
 
 
     <TextView
+        android:id="@+id/parking_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5 hours of parking time"

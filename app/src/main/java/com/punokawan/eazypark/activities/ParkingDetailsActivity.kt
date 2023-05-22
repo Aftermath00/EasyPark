@@ -31,7 +31,10 @@ class ParkingDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityParkingDetailsBinding.inflate(layoutInflater)
+
+        // initialize firebase
         FirebaseApp.initializeApp(this)
+
         setContentView(binding.root)
 
         supportActionBar?.hide()
@@ -44,9 +47,14 @@ class ParkingDetailsActivity : AppCompatActivity() {
         swipeButton.setOnActiveListener {
             Toast.makeText(
                 applicationContext,
-                "Activated",
+                "Pembayaran Berhasil",
                 Toast.LENGTH_SHORT
             ).show()
+
+            val intent = Intent(this@ParkingDetailsActivity, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+
         }
 
         ticketTextView = findViewById(R.id.parking_id_tv)
@@ -87,10 +95,10 @@ class ParkingDetailsActivity : AppCompatActivity() {
                             val durationHours = TimeUnit.MILLISECONDS.toHours(durationMillis)
                             val fee = durationHours * 5000 // 5,000 IDR per hour
 
-                            val enterTimeFormatted = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(enterTimeTimestamp.toDate())
+                            val enterTimeFormatted = SimpleDateFormat("HH:mm", Locale.getDefault()).format(enterTimeTimestamp.toDate())
                             enterTimeTextView.text = enterTimeFormatted
 
-                            val outTimeFormatted = SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(outTimeTimestamp.toDate())
+                            val outTimeFormatted = SimpleDateFormat("HH:mm", Locale.getDefault()).format(outTimeTimestamp.toDate())
                             outTimeTextView.text = outTimeFormatted
 
                             val currencyFormat = NumberFormat.getCurrencyInstance(Locale.getDefault())

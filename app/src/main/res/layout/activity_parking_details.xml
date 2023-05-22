@@ -75,6 +75,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/info_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
@@ -161,7 +162,7 @@
                 android:id="@+id/out_time_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Out time:    "
+                android:text="Out time    :"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -184,31 +185,32 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.example.swipebutton_library.SwipeButton
-            android:id="@+id/swipe_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            app:button_background_padding="12dp"
-            app:outer_background_height="60dp"
-            app:button_height="60dp"
-            app:button_width="60dp"
-            app:trail_enabled="true"
-            app:outer_background_drawable="@drawable/slide_btn_bg"
-            app:button_background_src="@drawable/right_arrow"
-            app:button_background_drawable="@drawable/circle_btn_shape"
-            app:trail_background_tint="@color/yellow_bg"
-            app:button_background_tint="@color/yellow_bg"
-            app:has_finish_animation="true"
-            app:inner_text="Swipe to park"
-            app:inner_text_size="16sp"
-            app:layout_constraintTop_toBottomOf="@+id/out_time_container"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <com.example.swipebutton_library.SwipeButton
+        android:id="@+id/swipe_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:button_background_padding="12dp"
+        app:outer_background_height="60dp"
+        app:button_height="60dp"
+        app:button_width="60dp"
+        app:trail_enabled="true"
+        app:outer_background_drawable="@drawable/slide_btn_bg"
+        app:button_background_src="@drawable/right_arrow"
+        app:button_background_drawable="@drawable/circle_btn_shape"
+        app:trail_background_tint="@color/yellow_bg"
+        app:button_background_tint="@color/yellow_bg"
+        app:has_finish_animation="true"
+        app:inner_text="Swipe to park"
+        app:inner_text_size="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/info_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
