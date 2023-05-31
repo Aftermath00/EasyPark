@@ -17,18 +17,8 @@ EZPark is an Android app that simplifies the parking ticketing process and reduc
 - [Download APK](./app-debug.apk)
 - Web demo : https://easypark-e2f7d.web.app/
 
-## Screenshots
-
-![Screenshot_2023-05-25-19-14-40-374_com punokawan eazypark](https://github.com/Aftermath00/EasyPark/assets/98159404/b52b30ed-ecb1-401d-8876-b30181ad758e)
-
-![Screenshot_2023-05-25-19-14-48-450_com punokawan eazypark](https://github.com/Aftermath00/EasyPark/assets/98159404/2054b6ef-2112-4900-88ad-e92d774d6274)
-
-![Screenshot_2023-05-25-19-14-54-577_com punokawan eazypark](https://github.com/Aftermath00/EasyPark/assets/98159404/3182a45e-b649-462a-885d-fc311c7199a6)
-
-![Screenshot_2023-05-25-19-15-06-891_com punokawan eazypark](https://github.com/Aftermath00/EasyPark/assets/98159404/af21ecdb-0780-4520-8fe5-ce9b9c99e525)
-
-![Screenshot_2023-05-25-19-16-21-528_com punokawan eazypark](https://github.com/Aftermath00/EasyPark/assets/98159404/606dc41e-dc72-49f4-8711-9b593a61b75e)
-
+## Demo
+https://github.com/Aftermath00/EasyPark/assets/98159404/920fc2c9-e4e0-4ec4-b73d-7e105c146cb7
 
 ## Lessons Learned
 
