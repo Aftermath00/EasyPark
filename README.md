@@ -1,4 +1,3 @@
-![ezpark_logo](https://github.com/Aftermath00/EasyPark/assets/86555486/cf6bb7a6-ae6b-47a1-ab43-98d536a27d34)
 ![ezpark mock](https://github.com/Aftermath00/EasyPark/assets/98159404/ff58924c-5537-4e0c-8c4a-82e7a655c310)
 
 
